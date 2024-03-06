@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JS 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./javaScript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Exercícios Js 01</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./um.html">Exercício 1</a></li>
+            <li><a href="./dois.html">Exercício 2</a></li>
+            <li><a href="./casa.html">Exercícios Casa</a></li>
+        </ul>
+    </nav>
+    <article>
+        <div class="mediaNotas">
+            <h4>Média Notas</h4>
+                <input type="number" name="valorMuda1" id="nota1" placeholder="Primeira Nota" >
+                <input type="number" name="valorMuda2" id="nota2" placeholder="Segunda Nota" >
+                <input type="number" name="valorMuda3" id="nota3" placeholder="Terceira Nota">
+                <input type="button" value="Calcular" onclick="mediaNotas()">
+                <h3 id="mediaNotas">Média :</h3>
+                <h3 id="mediaResultado">Aluno </h3>
+        </div>
+        <hr>
+        <div class="numerosPares">
+            <h4>Números pares de 1 até 100</h4>
+                <input type="button" value="Exibir os números" onclick="numerosPares()">
+                <h3 id="numeros">Números: </h3>
+        </div>
+        <hr>
+        <div class="numeroMaior">
+            <h4>Maior Número</h4>
+                <input type="number" name="valorMaior1" id="valorMaior1" placeholder="Primeiro valor" >
+                <input type="number" name="valorMaior2" id="valorMaior2" placeholder="Segundo Valor" >
+                <input type="button" value="Comparar" onclick="maiorNumero()">
+                <h3 id="maior"></h3>
+        </div>
+        <hr>
+        <div class="numeroMenor">
+            <h4>Menor Número</h4>
+                <input type="number" name="valorMenor1" id="valorMenor1" placeholder="Primeiro valor" >
+                <input type="number" name="valorMenor2" id="valorMenor2" placeholder="Segundo Valor" >
+                <input type="button" value="Comparar" onclick="menorNumero()">
+                <h3 id="menor"></h3>
+        </div>
+    </article>
+    
+</body>
+</html>
